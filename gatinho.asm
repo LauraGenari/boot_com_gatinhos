@@ -75,7 +75,7 @@ clearStringOutput:
 
     call charOutput
     add bx, 0x1
-    jmp nullLoop    
+    jmp clearStringOutput    
 
 charOutput:
     push ax
